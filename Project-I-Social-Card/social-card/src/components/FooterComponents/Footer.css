@@ -1,0 +1,10 @@
+.footer-elements {
+  width: 500px;
+  margin: 10px 10px 0px 70px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-icon {
+  margin-right: 40px;
+}
