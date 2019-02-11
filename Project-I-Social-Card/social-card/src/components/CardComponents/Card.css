@@ -1,4 +1,18 @@
 /* All styles for your Card Components live here */
 img {
-  width: 100%;
+  max-width: 100%;
+}
+
+.card-content p {
+  margin: 10px 15px;
+  color: black;
+  text-decoration-style: none;
+  text-decoration-line: none;
+  
+}
+
+.card-text {
+  text-decoration-style: none;
+  text-decoration-line: none;
+  
 }

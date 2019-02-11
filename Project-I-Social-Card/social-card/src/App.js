@@ -7,7 +7,9 @@ const App = () => {
   return (
     <div className='app'>
       <HeaderContainer />
-      <CardContainer />
+      <div className="card-container">
+        <a href="https://reactjs.org" target="_blank"><CardContainer /></a>
+      </div>
     </div>
   );
 };

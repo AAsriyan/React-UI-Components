@@ -4,8 +4,9 @@ import './HeaderContainer';
 
 function HeaderTitle() {
   return (
-  <h5>Lambda School</h5>,
-  <h6>@LambdaSchool . 11 Feb</h6>
+    <div>
+      <h5 className="title">Lambda School<span> @LambdaSchool · 11 Feb</span></h5>
+    </div>
   );
 }
 
