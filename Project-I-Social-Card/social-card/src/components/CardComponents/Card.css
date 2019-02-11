@@ -3,16 +3,11 @@ img {
   max-width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .card-content p {
   margin: 10px 15px;
   color: black;
-  text-decoration-style: none;
-  text-decoration-line: none;
-  
-}
-
-.card-text {
-  text-decoration-style: none;
-  text-decoration-line: none;
-  
 }
