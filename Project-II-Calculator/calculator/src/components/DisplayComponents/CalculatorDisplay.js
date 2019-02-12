@@ -3,7 +3,7 @@ import './Display.css';
 import NumberButton from '../ButtonComponents/NumberButton';
 import ActionDisplay from '../ButtonComponents/ActionButton';
 import NumberZero from '../ButtonComponents/NumberZero';
-import DisplayButton from '../ButtonComponents/DisplayButton';
+import ClearButton from '../ButtonComponents/ClearButton';
 
 // const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
@@ -68,7 +68,7 @@ const NumberEqual = {
 }
 
 const DisplayClear = {
-  display: 'clear'
+  clear: 'clear'
 }
 
 
@@ -78,7 +78,7 @@ function CalculatorDisplay() {
       <div className="display-calc">0</div>
       <div className="button-display">
         <div className="number-display">
-          <DisplayButton display={DisplayClear}/>
+          <ClearButton clear={DisplayClear}/>
           <NumberButton number={NumberSeven}/>
           <NumberButton number={NumberEight}/>
           <NumberButton number={NumberNine}/>

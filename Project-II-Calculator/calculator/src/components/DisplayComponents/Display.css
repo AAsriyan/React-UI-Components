@@ -1,9 +1,11 @@
 .display-calc {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   background-color: black;
   color: white;
   height: 100px;
   font-size: 80px;
-  text-align: right;
 }
 
 .button-display {
@@ -14,7 +16,6 @@
 .number-display {
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: column-reverse; */
   max-width: 450px;
   border: 2px solid black;
 }

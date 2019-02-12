@@ -1,14 +1,19 @@
-.display-button {
+.clear-button {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 120px;
   width: 450px;
-  /* margin: auto auto; */
   text-align: center;
   font-weight: bold;
   font-size: 80px;
   border: 1px solid black;
+  cursor: pointer;
+}
+
+.clear-button:hover {
+  color: white;
+  background-color: darkred;
 }
 
 .number-button {
@@ -18,11 +23,16 @@
   height: 120px;
   max-width: 33.3333%;
   width: 33.3333%;
-  /* margin: auto auto; */
   text-align: center;
   font-weight: bold;
   font-size: 80px;
   border: 1px solid black;
+  cursor: pointer;
+}
+
+.number-button:hover {
+  color: white;
+  background-color: black;
 }
 
 .number-zero {
@@ -31,10 +41,15 @@
   align-items: center;
   height: 120px;
   width: 450px;
-  /* margin: auto auto; */
   text-align: center;
   font-weight: bold;
   font-size: 80px;
+  cursor: pointer;
+}
+
+.number-zero:hover {
+  color: white;
+  background-color: black;
 }
 
 .action-button {
@@ -49,5 +64,11 @@
   font-weight: bold;
   font-size: 80px;
   border: 1px solid black;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  color: darkred;
+  background-color: white;
 }
 
