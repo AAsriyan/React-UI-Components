@@ -1,1 +1,13 @@
 /* All styles for your Card Components live here */
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card-content p {
+  margin: 10px 15px;
+  color: black;
+}
