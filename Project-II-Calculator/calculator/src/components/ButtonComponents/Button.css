@@ -1,0 +1,53 @@
+.display-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 450px;
+  /* margin: auto auto; */
+  text-align: center;
+  font-weight: bold;
+  font-size: 80px;
+  border: 1px solid black;
+}
+
+.number-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  max-width: 33.3333%;
+  width: 33.3333%;
+  /* margin: auto auto; */
+  text-align: center;
+  font-weight: bold;
+  font-size: 80px;
+  border: 1px solid black;
+}
+
+.number-zero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 450px;
+  /* margin: auto auto; */
+  text-align: center;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+.action-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  max-width: 100%;
+  width: 150px;
+  /* margin: auto auto; */
+  text-align: center;
+  font-weight: bold;
+  font-size: 80px;
+  border: 1px solid black;
+}
+
