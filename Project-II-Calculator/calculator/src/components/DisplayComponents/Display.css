@@ -1,3 +1,8 @@
+.display-full {
+  max-width: 600px;
+  width: 100%;
+}
+
 .display-calc {
   display: flex;
   justify-content: flex-end;
@@ -10,20 +15,24 @@
 
 .button-display {
   display: flex;
+  max-width: 600px;
+  width: 100%;
   border: 2px solid black;
 }
 
 .number-display {
   display: flex;
   flex-wrap: wrap;
-  max-width: 450px;
+  max-width: 75%;
+  width: 100%;
   border: 2px solid black;
 }
 
 .action-display {
   display: flex;
   flex-direction: column;
-  max-width: 145px;
+  max-width: 25%;
+  width: 100%;
   border: 2px solid black;
   color: white;
   background-color: darkred;

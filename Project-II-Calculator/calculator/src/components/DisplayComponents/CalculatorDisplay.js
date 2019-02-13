@@ -11,6 +11,19 @@ const NumberZ = {
   number: 0
 }
 
+// const Numbers = {
+//   number0: 0,
+//   number1: 1,
+//   nunber2: 2,
+//   nunber3: 3,
+//   nunber4: 4,
+//   nunber5: 5,
+//   nunber6: 6,
+//   nunber7: 7,
+//   nunber8: 8,
+//   number9: 9
+// }
+
 const NumberOne = {
   number: 1
 }
@@ -74,7 +87,7 @@ const DisplayClear = {
 
 function CalculatorDisplay() {
   return (
-    <div>
+    <div className="display-full">
       <div className="display-calc">0</div>
       <div className="button-display">
         <div className="number-display">
